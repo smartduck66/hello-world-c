@@ -1,26 +1,11 @@
-//  main.cpp
-//  Hello World
-//  Created by André Tonic on 04/11/2017.
-//  Copyright © 2017 André Tonic. All rights reserved.
+//  Crible d'Erastothene : détermination des nombres premiers
+//  Created by André Tonic on 17/11/2017.
 
 // Caractères spéciaux : [ ]   '\n'   {  }   ||
 
 
 // Version initiale du Book de BS
 #include "std_lib_facilities.h"
-
-int nombre_premier(int x)
-{
-    int nbdivisions=0;
-    
-    for (int z=1;z<=x;++z){
-        if (x%z==0) ++nbdivisions;
-        
-    }
-    
-    return nbdivisions;
-    
-}
 
 vector<double> crible_erasthotene(double x)
 {
